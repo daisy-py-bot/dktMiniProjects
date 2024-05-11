@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div>
+    <h1>Propositional Logic to Set Theory/ Boolean Algebra Convertor</h1>
+    <!--Create a div element for the calculator-->
+    <div id="calculator">
+        
+
+        <!--displaying the content-->
+        <input id="display" readonly>
+
+        <!--keypads for the calculator-->
+        <div id="keys">
+            <button onclick="appendToDisplay('∧')">∧</button>
+            <button onclick="appendToDisplay('p')" class="var">p</button>
+            <button onclick="appendToDisplay('q')" class="var">q</button>
+            <button onclick="appendToDisplay('r')" class="var">r</button>
+            <button onclick="storeValue('OK')"class="operator">OK</button>
+            <button onclick="appendToDisplay('∨ ')">∨ </button>
+            <button onclick="appendToDisplay('s')"class="var">s</button>
+            <button onclick="appendToDisplay('t')"class="var" >t</button>
+            <button onclick="appendToDisplay('u')"class="var">u</button>
+            <button onclick="deleteValue('DE')" class="operator">DE</button>
+            <button onclick="appendToDisplay('¬')">¬</button>
+            <button onclick="appendToDisplay('v')"class="var" >v</button>
+            <button onclick="appendToDisplay('w')"class="var">w</button>
+            <button onclick="displayAnswer('ans')"class="var">ans</button>
+            <button onclick="clearDisplay('CL')" class="operator">CL</button>
+            <button onclick="appendToDisplay('T')" >T</button>
+            <button onclick="appendToDisplay('F')">F</button>
+            <button onclick="appendToDisplay('&lpar;')" >&lpar;</button>
+            <button onclick="appendToDisplay('&rpar;')" >&rpar;</button>
+
+
+            <button onclick="returnBack('BACK')"class="operator">BACK</button>
+            <button onclick="toDual()" class="converter" >DUAL</button>
+            <button onclick="toSet('SET')" class="converter" >SET</button>
+            <button onclick="toBoolean('BOOL')"class="converter" >BOOL</button>
+            <button onclick="placeTab('HELP')"class="converter" >HELP</button>
+            <button onclick="learnMore('MORE')"class="converter" >MORE</button>
+
+
+        </div>
+
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
