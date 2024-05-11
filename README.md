@@ -1,2 +1,2 @@
 # dktMiniProjects
-Cool mini projects to practice coding in python and java
+Cool mini projects to practice coding with Java, JavaScript, HTML, and CSS
